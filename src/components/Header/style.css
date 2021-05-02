@@ -1,0 +1,8 @@
+.navLinks > * {
+  color: azure !important;
+}
+
+.link:hover {
+  color: var(--thirdColor) !important;
+  font-weight: bold;
+}
