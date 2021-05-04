@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Events from './components/Events';
+import Contact from './components/Contact'
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/events">
           <Events />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
         <Route>
           <Home />
