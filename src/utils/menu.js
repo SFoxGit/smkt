@@ -1,5 +1,7 @@
-const menu = [
+// const menu = [
   // Starters
+const starters =
+[
 {
 name: "Homemade Pimento Cheese Dip",
 description: "Classic Pimento cheese recipe served with fried tortilla chips.",
@@ -37,8 +39,11 @@ price: "$7.95",
 name: "Potato Skins",
 description: "Thick cut potato halves cover with cheese and bacon",
 price: "$7.95"
-},
+}
+]
 // "Salads & Soups"
+const salads =
+[
 {
 name: "Avocado Chicken Cobb Salad",
 description: "Iceberg and Romaine mix topped with diced tomato, bacon, eggs, avocado with Bleu chees…",
@@ -77,15 +82,16 @@ price: "$3.95"
 {
 name: "Entree Caesar Salad",
 price: "$7.95",
-
 },{
 name: "Soup",
 description: "Please call 704-812-8973 to find out the soup of the day.",
 price: "$2.95"
-},
-{
-name: "Burgers",
-description: "South Main Burger Lettuce, tomato, cheese and onion on a toasted bun. Served with one side.",
+}
+]
+const burgers =
+[
+{name: "South Main Burger",
+description: "Lettuce, tomato, cheese and onion on a toasted bun. Served with one side.",
 price: "$9.95"
 },
 {
@@ -107,8 +113,11 @@ price: "$10.95"
 name: "Mt. Holly Burger",
 description: "Pimento cheese, bacon, lettuce, tomato and onion on a toasted bun. Served with one side.",
 price: "$10.95"
-},
+}
+]
 // "Sandwiches"
+const sandwiches =
+[
 {
 name: "The Philly Cheesesteak",
 description: "Sliced Philly steak with grilled onions, peppers, mushrooms and mayo on a hoagie. Served wit…",
@@ -143,8 +152,11 @@ price: "$10.95"
 name: "Main Street Club",
 description: "Ham, turkey, bacon, American cheese, lettuce, tomato and mayo on white bread. Served with …",
 price: "$10.95"
-},
+}
+]
 // "Entrees"
+const entrees =
+[
 {
 name: "Gaston County Honey Chicken" ,
 description:  "Golden fried chicken breast drizzled with honey. Served with two sides.",
@@ -199,8 +211,11 @@ price: "$10.95"
 name: "Calabash Chicken Basket",
 description: "Tender chunks of white meat chicken deep fried golden brown. Served with two sides.",
 price: "$10.95"
-},
+}
+]
 // "Seafood"
+const seafood =
+[
 {
 name: "Seafood Platter",
 description:  "Fried flounder, calabash shrimp, jumbo shrimp, scallops and deviled crab. Served with two sid…",
@@ -225,8 +240,11 @@ price: "$10.95"
 name: "Grilled Salmon",
 description: "Blackened or grilled over a bed of rice served with two sides.",
 price: "$13.45"
-},
+}
+]
 // "Italian"
+const italian = 
+[
 {
 name: "Spaghetti with Meat Sauce",
 description: "Traditional spaghetti with house made meat sauce sprinkled with Parmesan Cheese. Serve…",
@@ -251,8 +269,10 @@ price: "$13.45"
 name: "Seafood Pasta",
 description: "Shrimp, Scallops and Clams served over linguine in a marinara sauce",
 price: "$14.45"
-},
+}
 // "Steaks"
+]
+const steaks = [
 {
 name: "Marinated London Broil Strips",
 description: "Tender house marinated strips of London Broil served over rice along with your choice of two …",
@@ -267,84 +287,68 @@ price: "$26.95"
 name: "12 oz. Ribeye",
 description: "Served with two sides.",
 price: "$21.95"
-},
-{
-name: "Sides",
-description: "Crispy Fries",
+}
+]
+
+const sides =
+[
+{name: "Crispy Fries",
 price: "$2.45"
 },
 {
 name: "Rice & Gravy",
 price: "$2.45",
-
 },{
 name: "Steamed Broccoli",
 price: "$2.45",
-
 },{
 name: "Fried Squash",
 price: "$2.45",
-
 },{
 name: "Fried Okra",
 price: "$2.45",
-
 },{
 name: "Green Beans",
 price: "$2.45",
-
 },{
 name: "Pasta Salad",
 price: "$2.45",
-
 },{
 name: "Peaches & Cottage Cheese",
 price: "$2.45",
-
 },{
 name: "Apple Sauce",
 price: "$2.45",
-
 },{
 name: "Coleslaw",
 price: "$2.45",
-
 },{
 name: "Macaroni Salad",
 price: "$2.25",
-
 },{
 name: "Pickled Beets",
 price: "$2.45",
-
 },{
 name: "Cucumber Salad",
 price: "$2.45",
-
 },{
 name: "Onion Tanglers",
 price: "$2.45",
-
 },{
 name: "Potato Salad",
 price: "$2.45",
-
 },{
 name: "Collard Greens",
 price: "$2.45",
-
 },{
 name: "Onion Rings",
 price: "$2.45",
-
 },{
 name: "Mashed Potatoes & Gravy",
 price: "$2.45",
-
 },{
 name: "Baked Potato",
 price: "$2.45",
-
 },{
 name: "Beverages",
 description: "Soda",
@@ -353,13 +357,13 @@ price: "$2.45"
 {
 name: "Lemonade",
 price: "$2.45",
-
 },{
 name: "Iced Tea",
 price: "$2.45",
+},]
 
-},
-// "Kids Menu"
+const kids =
+[
 {
 name: "Kid Cheeseburger",
 description: "4oz patty with American cheese on a bun.",
@@ -373,11 +377,9 @@ price: "$4.50"
 {
 name: "Kid Corn Dog",
 price: "$4.50",
-
 },{
 name: "Kid Grilled Cheese",
 price: "$4.50",
-
 },{
 name: "Kid Spaghetti",
 description: "Spaghetti noodles topped with our house-made meat sauce.",
