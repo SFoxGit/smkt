@@ -400,3 +400,5 @@ name: "Kid Calabash Shrimp",
 price: "$5.50",
 },
 ]
+
+module.exports = {starters, salads, burgers, sandwiches, entrees, seafood, steaks, sides, kids, italian}
