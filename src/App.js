@@ -14,6 +14,7 @@ import Sandwiches from './components/Sandwiches';
 import Entrees from './components/Entrees';
 import Seafood from './components/Seafood';
 import Steaks from './components/Steaks';
+import Italian from './components/Italian';
 
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
         </Route>
         <Route exact path="/italian">
           <MenuDropdown />
-          <Menu />
+          <Italian />
         </Route>
         <Route exact path="/kids">
           <MenuDropdown />
