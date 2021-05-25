@@ -6,7 +6,7 @@ export default function MenuCard(props) {
     <Container fluid className="menuCard">
       <Row>
         <Col xs={9}>{props.name}</Col>
-        <Col xs={3}>{props.price}</Col>
+        <Col xs={3} className="text-right">{props.price}</Col>
       </Row>
       <Row>
         <Col>{props.description}</Col>
