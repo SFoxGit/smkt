@@ -41,19 +41,27 @@ function App() {
           <MenuDropdown />
           <Sandwiches />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/entrees">
           <MenuDropdown />
           <Menu />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/seafood">
           <MenuDropdown />
           <Menu />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/steaks">
           <MenuDropdown />
           <Menu />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/italian">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/kids">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/sides">
           <MenuDropdown />
           <Menu />
         </Route>
