@@ -5,8 +5,8 @@ import Dropdown from 'react-bootstrap/Dropdown'
 export default function MenuDropdown() {
   return (
       <DropdownButton id="dropdown-basic-button" title="Menu Sections">
-        <Dropdown.Item href="#/action-1">Full Menu</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Starters</Dropdown.Item>
+        <Dropdown.Item href="/menu">Full Menu</Dropdown.Item>
+        <Dropdown.Item href="/starters">Starters</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Salads</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Burgers</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Sandwiches</Dropdown.Item>

@@ -7,6 +7,7 @@ import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import MenuDropdown from './components/Dropdown';
+import Starters from './components/Starters';
 
 
 function App() {
@@ -16,6 +17,38 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/starters">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Starters />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
+        </Route>
+        <Route exact path="/menu">
+          <MenuDropdown />
+          <Menu />
         </Route>
         <Route exact path="/menu">
           <MenuDropdown />
