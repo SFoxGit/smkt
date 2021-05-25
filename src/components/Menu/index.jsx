@@ -9,6 +9,7 @@ import Steaks from '../Steaks';
 import Italian from '../Italian';
 import Kids from '../Kids';
 import Sides from '../Sides';
+import Beverages from "../Beverages";
 
 function Menu() {
 
@@ -24,6 +25,7 @@ function Menu() {
       <Italian />
       <Kids />
       <Sides />
+      <Beverages />
     </>
   )
 }

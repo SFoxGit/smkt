@@ -16,6 +16,7 @@ export default function MenuDropdown() {
         <Dropdown.Item href="/italian">Italian</Dropdown.Item>
         <Dropdown.Item href="/kids">Kids</Dropdown.Item>
         <Dropdown.Item href="/sides">Sides</Dropdown.Item>
+        <Dropdown.Item href="/beverages">Beverages</Dropdown.Item>
       </DropdownButton>
   )
 }

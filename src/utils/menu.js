@@ -349,9 +349,12 @@ price: "$2.45",
 },{
 name: "Baked Potato",
 price: "$2.45",
-},{
-name: "Beverages",
-description: "Soda",
+}]
+const drinks =
+[
+{
+name: "Soda",
+description: "Pepsi products",
 price: "$2.45"
 },
 {
@@ -359,6 +362,7 @@ name: "Lemonade",
 price: "$2.45",
 },{
 name: "Iced Tea",
+description: "Sweet or Unsweet",
 price: "$2.45",
 },]
 
@@ -401,4 +405,4 @@ price: "$5.50",
 },
 ]
 
-module.exports = {starters, salads, burgers, sandwiches, entrees, seafood, steaks, sides, kids, italian}
+module.exports = {starters, salads, burgers, sandwiches, entrees, seafood, steaks, sides, kids, italian, drinks}

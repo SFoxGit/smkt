@@ -1,15 +1,16 @@
 import React from 'react'
-import {sides} from "../../utils/menu";
+import { sides } from "../../utils/menu";
 import MenuCard from "../MenuCard";
 
 export default function Sides() {
   return (
     <div>
+      <div className="menuTitle">Sides</div>
       {sides.map(e => (
-        <MenuCard 
-        name={e.name}
-        description={e.description}
-        price={e.price}
+        <MenuCard
+          name={e.name}
+          description={e.description}
+          price={e.price}
         />
       ))}
     </div>
