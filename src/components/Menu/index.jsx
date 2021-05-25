@@ -27,6 +27,13 @@ function Menu() {
         price={e.price}
         />
       ))}
+      {sandwiches.map(e => (
+        <MenuCard
+        name={e.name}
+        description={e.description}
+        price={e.price}
+        />
+      ))}
     </>
   )
 }
