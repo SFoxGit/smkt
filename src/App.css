@@ -1,21 +1,63 @@
 :root {
   --background: #000000;
-  --secondaryColor: #2F2B1F;
+  --secondaryColor: #212529;
   --thirdColor: #C4976E;
 }
 
 #root {
   font-size: 28px;
+  background-color: var(--background);
 }
 
 .menuCard {
   font-size: 16px;
   color: white;
-  border-bottom: white solid;
+  border-bottom: var(--thirdColor) solid;
   padding: 4px;
+  z-index: 0 !important;
+}
+
+.menuCard > * {
+  z-index: 0 !important;
 }
 
 .menuTitle {
+  margin-top: 40px;
   color: white;
-  border-bottom: white solid;
+  border-bottom: var(--thirdColor) solid;
+}
+
+.dropdown-menu {
+  opacity: 1 !important;
+}
+
+.menuDrop {
+  opacity: 1 !important;
+  z-index: 1111 !important;
+
+}
+
+.menuDrop > * {
+  background-color: var(--background) !important;
+  color: var(--thirdColor) !important;
+  font-weight: bolder !important;
+  opacity: 1 !important;
+  padding: 0 !important;
+  border-color: white !important;
+}
+
+.dropdown-item {
+  opacity: 1;
+  font-weight: bold !important;
+  border-bottom: solid var(--secondaryColor) !important;
+  color: var(--thirdColor) !important;
+}
+
+#dropdown-basic-button {
+  padding: 8px 16px !important;
+}
+
+.navbar {
+  opacity: 1 !important;
+  background-color: var(--background);
 }
