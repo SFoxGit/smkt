@@ -3,10 +3,10 @@ import {Container, Row, Col} from "react-bootstrap"
 
 export default function MenuCard(props) {
   return (
-    <Container fluid>
+    <Container fluid className="menuCard">
       <Row>
-        <Col>{props.name}</Col>
-        <Col>{props.price}</Col>
+        <Col xs={9}>{props.name}</Col>
+        <Col xs={3}>{props.price}</Col>
       </Row>
       <Row>
         <Col>{props.description}</Col>
