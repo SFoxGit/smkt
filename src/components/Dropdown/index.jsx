@@ -10,12 +10,12 @@ export default function MenuDropdown() {
         <Dropdown.Item href="/salads">Salads</Dropdown.Item>
         <Dropdown.Item href="/burgers">Burgers</Dropdown.Item>
         <Dropdown.Item href="/sandwiches">Sandwiches</Dropdown.Item>
-        <Dropdown.Item href="/">Entrees</Dropdown.Item>
-        <Dropdown.Item href="/">Seafood</Dropdown.Item>
-        <Dropdown.Item href="/">Steaks</Dropdown.Item>
-        <Dropdown.Item href="/">Italian</Dropdown.Item>
-        <Dropdown.Item href="/">Kids</Dropdown.Item>
-        <Dropdown.Item href="/">Sides</Dropdown.Item>
+        <Dropdown.Item href="/entrees">Entrees</Dropdown.Item>
+        <Dropdown.Item href="/seafood">Seafood</Dropdown.Item>
+        <Dropdown.Item href="/steaks">Steaks</Dropdown.Item>
+        <Dropdown.Item href="/italian">Italian</Dropdown.Item>
+        <Dropdown.Item href="/kids">Kids</Dropdown.Item>
+        <Dropdown.Item href="/sides">Sides</Dropdown.Item>
       </DropdownButton>
   )
 }
