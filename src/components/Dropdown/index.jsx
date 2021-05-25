@@ -8,7 +8,7 @@ export default function MenuDropdown() {
         <Dropdown.Item href="/menu">Full Menu</Dropdown.Item>
         <Dropdown.Item href="/starters">Starters</Dropdown.Item>
         <Dropdown.Item href="/salads">Salads</Dropdown.Item>
-        <Dropdown.Item href="/">Burgers</Dropdown.Item>
+        <Dropdown.Item href="/burgers">Burgers</Dropdown.Item>
         <Dropdown.Item href="/">Sandwiches</Dropdown.Item>
         <Dropdown.Item href="/">Entrees</Dropdown.Item>
         <Dropdown.Item href="/">Seafood</Dropdown.Item>

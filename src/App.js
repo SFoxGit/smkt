@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import MenuDropdown from './components/Dropdown';
 import Starters from './components/Starters';
 import Salads from './components/Salads';
+import Burgers from './components/Burgers';
 
 
 function App() {
@@ -31,9 +32,9 @@ function App() {
           <MenuDropdown />
           <Salads />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/burgers">
           <MenuDropdown />
-          <Menu />
+          <Burgers />
         </Route>
         <Route exact path="/menu">
           <MenuDropdown />
