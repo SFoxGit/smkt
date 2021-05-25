@@ -16,6 +16,7 @@ import Seafood from './components/Seafood';
 import Steaks from './components/Steaks';
 import Italian from './components/Italian';
 import Kids from './components/Kids';
+import Sides from './components/Sides';
 
 
 function App() {
@@ -68,7 +69,7 @@ function App() {
         </Route>
         <Route exact path="/sides">
           <MenuDropdown />
-          <Menu />
+          <Sides />
         </Route>
         <Route exact path="/events">
           <Events />
