@@ -8,6 +8,7 @@ import Events from './components/Events';
 import Contact from './components/Contact';
 import MenuDropdown from './components/Dropdown';
 import Starters from './components/Starters';
+import Salads from './components/Salads';
 
 
 function App() {
@@ -24,11 +25,11 @@ function App() {
         </Route>
         <Route exact path="/starters">
           <MenuDropdown />
-          <Menu />
-        </Route>
-        <Route exact path="/menu">
-          <MenuDropdown />
           <Starters />
+        </Route>
+        <Route exact path="/salads">
+          <MenuDropdown />
+          <Salads />
         </Route>
         <Route exact path="/menu">
           <MenuDropdown />
