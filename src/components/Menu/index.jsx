@@ -1,39 +1,29 @@
 import React from "react";
-import { starters, salads, burgers, sandwiches, entrees, seafood, steaks, sides, kids, italian } from "../../utils/menu"
-import MenuCard from "../MenuCard";
+import Starters from '../Starters';
+import Salads from '../Salads';
+import Burgers from '../Burgers';
+import Sandwiches from '../Sandwiches';
+import Entrees from '../Entrees';
+import Seafood from '../Seafood';
+import Steaks from '../Steaks';
+import Italian from '../Italian';
+import Kids from '../Kids';
+import Sides from '../Sides';
 
 function Menu() {
 
   return (
     <>
-      {starters.map(e => (
-        <MenuCard 
-        name={e.name}
-        description={e.description}
-        price={e.price}
-        />
-      ))}
-      {salads.map(e => (
-        <MenuCard
-        name={e.name}
-        description={e.description}
-        price={e.price}
-        />
-      ))}
-      {burgers.map(e => (
-        <MenuCard
-        name={e.name}
-        description={e.description}
-        price={e.price}
-        />
-      ))}
-      {sandwiches.map(e => (
-        <MenuCard
-        name={e.name}
-        description={e.description}
-        price={e.price}
-        />
-      ))}
+      <Starters />
+      <Salads />
+      <Burgers />
+      <Sandwiches />
+      <Entrees />
+      <Seafood />
+      <Steaks />
+      <Italian />
+      <Kids />
+      <Sides />
     </>
   )
 }
