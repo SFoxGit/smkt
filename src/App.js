@@ -5,7 +5,8 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Events from './components/Events';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import MenuDropdown from './components/Dropdown';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/menu">
+          <MenuDropdown />
           <Menu />
         </Route>
         <Route exact path="/events">
