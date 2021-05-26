@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header';
+import Order from './components/Order';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Events from './components/Events';
@@ -81,6 +82,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/order">
+          <Order />
         </Route>
         <Route>
           <Home />
