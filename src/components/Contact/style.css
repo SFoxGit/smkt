@@ -1,4 +1,30 @@
-.btn {
+.orderBtn {
   width: 50%;
   border-radius: 20px !important;
+  background-color: var(--thirdColor) !important;
+  color: var(--secondaryColor) !important;
+  font-weight: bold !important;
+  border-color: var(--secondaryColor) !important;
+  border-width: 2px !important;
+}
+
+.orderBtn:hover {
+  font-weight: bolder !important;
+  background-color: var(--secondaryColor) !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.row {
+  color: white;
+}
+
+.col {
+  color: white;
+}
+
+h2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: var(--secondaryColor)
 }
