@@ -11,16 +11,16 @@ function Home() {
         </Row>
         <Row>
           <Col xs={12} md={6} className="mb-4">
-            <Image fluid src="./images/beeftips.jpg"/>
+            <Image fluid src="./images/beeftips.jpg" alt="beef tips with fried squash and collard greens"/>
           </Col>
           <Col xs={12} md={6} className="mb-4">
-            <Image fluid src={"./images/flounder.jpg"}/>
+            <Image fluid src={"./images/flounder.jpg"} alt="Fried flounder with fries" />
           </Col>
           <Col xs={12} md={6} className="mb-4">
-            <Image fluid src={"./images/gyro.jpg"}/>
+            <Image fluid src={"./images/gyro.jpg"} alt="Gyro" />
           </Col>
           <Col xs={12} md={6} className="mb-4">
-            <Image fluid src={"./images/burger.jpg"}/>
+            <Image fluid src={"./images/burger.jpg"} alt="South Main Burger" />
           </Col>
         </Row>
       </Container>
