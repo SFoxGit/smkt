@@ -6,3 +6,11 @@
   color: var(--thirdColor) !important;
   font-weight: bold;
 }
+
+.modal-content {
+  background-color: var(--background) !important;
+}
+
+span {
+  color: white;
+}
