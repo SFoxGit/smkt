@@ -25,7 +25,7 @@ function Header() {
           <Nav.Link className="link col-xs-12 col-md-3" href="/menu">Menu</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/events">Events</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/contact">Contact Us</Nav.Link>
-          <div className="link col-xs-12 col-md-3" onClick={handleShow}>Order</div>
+          <div className="nav-link link col-xs-12 col-md-3" onClick={handleShow}>Order</div>
         </Nav>
       </Navbar.Collapse>
       <Modal show={show} onHide={handleClose}>
@@ -33,7 +33,7 @@ function Header() {
             <Row><h2>Order</h2></Row>
         </Modal.Header>
         <Modal.Body>
-          <Col xs={12} lg={6} style={{ height: "400px" }}>
+          <Col xs={12} style={{ height: "400px" }}>
             <Row>
               <Col xs={12} className="text-center mt-4">Pick-Up</Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="tel:7048128973">Call</Button></Col>
@@ -47,9 +47,6 @@ function Header() {
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
           </Button>
         </Modal.Footer>
       </Modal>
