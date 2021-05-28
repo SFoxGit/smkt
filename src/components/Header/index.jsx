@@ -28,12 +28,12 @@ function Header() {
           <div className="nav-link link col-xs-12 col-md-3" onClick={handleShow}>Order</div>
         </Nav>
       </Navbar.Collapse>
-      <Modal show={show} onHide={handleClose}>
+      <Modal style={{zIndex: "3000"}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
             <Row><h2>Order</h2></Row>
         </Modal.Header>
         <Modal.Body>
-          <Col xs={12} style={{ height: "400px" }}>
+          <Col xs={12} >
             <Row>
               <Col xs={12} className="text-center mt-4">Pick-Up</Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="tel:7048128973">Call</Button></Col>
@@ -44,11 +44,11 @@ function Header() {
             </Row>
           </Col>
         </Modal.Body>
-        <Modal.Footer>
+        {/* <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-        </Modal.Footer>
+        </Modal.Footer> */}
       </Modal>
     </Navbar>
   )
