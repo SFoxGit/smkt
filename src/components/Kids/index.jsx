@@ -1,10 +1,11 @@
 import React from 'react'
 import { kids } from "../../utils/menu";
 import MenuCard from "../MenuCard";
+import { Container } from 'react-bootstrap';
 
 export default function Kids() {
   return (
-    <div>
+    <Container>
       <div className="menuTitle">Kids</div>
       {kids.map(e => (
         <MenuCard
@@ -13,6 +14,6 @@ export default function Kids() {
           price={e.price}
         />
       ))}
-    </div>
+    </Container>
   )
 }

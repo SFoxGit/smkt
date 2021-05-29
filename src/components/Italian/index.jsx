@@ -1,10 +1,11 @@
 import React from 'react'
 import { italian } from "../../utils/menu";
 import MenuCard from "../MenuCard";
+import { Container } from 'react-bootstrap';
 
 export default function Italian() {
   return (
-    <div>
+    <Container>
       <div className="menuTitle">Italian</div>
       {italian.map(e => (
         <MenuCard
@@ -13,6 +14,6 @@ export default function Italian() {
           price={e.price}
         />
       ))}
-    </div>
+    </Container>
   )
 }

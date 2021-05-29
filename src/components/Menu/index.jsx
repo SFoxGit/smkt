@@ -10,11 +10,12 @@ import Italian from '../Italian';
 import Kids from '../Kids';
 import Sides from '../Sides';
 import Beverages from "../Beverages";
+import { Container } from "react-bootstrap";
 
 function Menu() {
 
   return (
-    <>
+    <Container>
       <Starters />
       <Salads />
       <Burgers />
@@ -26,7 +27,7 @@ function Menu() {
       <Kids />
       <Sides />
       <Beverages />
-    </>
+    </Container>
   )
 }
 
