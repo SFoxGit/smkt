@@ -19,12 +19,15 @@ import Italian from './components/Italian';
 import Kids from './components/Kids';
 import Sides from './components/Sides';
 import Beverages from './components/Beverages';
+import Open from './components/Open';
+
 
 
 function App() {
   return (
     <Router>
       <Header />
+      <Open />
       <Switch>
         <Route exact path="/">
           <Home />
