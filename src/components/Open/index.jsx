@@ -2,11 +2,12 @@ import React from 'react'
 import {Container, Row, Col} from "react-bootstrap"
 
 export default function Open() {
+  
   return (
     <Container>
       <Row>
         <Col className="text-right">
-        Test
+        
         </Col>
       </Row>
     </Container>
