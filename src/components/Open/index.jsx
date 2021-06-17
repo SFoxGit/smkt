@@ -1,12 +1,12 @@
 import React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import {Container, Row, Col} from "react-bootstrap"
 
 export default function Open() {
   const [hours, setHours] = useState()
   useEffect(() => {
-    const d = new Date()
+    const someDate = new Date()
+    const d = someDate.getDate()
     
     if (d === 0) {setHours("11:00 am - 4:00 pm")}
     if (d === 1) {setHours("Closed on Mondays")}
