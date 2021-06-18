@@ -94,7 +94,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
-      <NightMode />
+      {/* <NightMode /> */}
     </Router>
   );
 }
