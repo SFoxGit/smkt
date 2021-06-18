@@ -9,21 +9,31 @@ export default function Open() {
     const someDate = new Date()
     const d = someDate.getDay()
     const h = someDate.getHours()
-
-    if (d === 0) { setHours("Today's hours: 11:00 am - 4:00 pm") }
-    if (d === 1) { setHours("Closed on Mondays") }
-    if (d > 1 && d < 5) { setHours("Today's hours: 11:00 am - 9:00 pm") }
-    if (d > 4) { setHours("Today's hours: 11:00 am - 10:00 pm") }
+    if (d === 0) { 
+      setHours("11:00 am - 4:00 pm") 
+      if (h < 11 || h > 15) { setOpen(false)}
+    }
+    if (d === 1) { 
+      setHours("Closed on Mondays") 
+      setOpen(false)
+    }
+    if (d > 1 && d < 5) { 
+      setHours("11:00 am - 9:00 pm") 
+      if (h < 11 || h > 20) { setOpen(false)}
+    }
+    if (d > 4) { 
+      setHours("11:00 am - 10:00 pm") 
+      if (h < 11 || h > 21) { setOpen(false)}
+    }
 
 
   }, [])
   return (
     <Container>
       <Row>
-        <Col className="float-right">
-          <div className="text-right" style={{ color: "red" }}>{open ? "Currently Open " : "Currently Closed "}</div>
-          <div className="text-right" >{hours}</div>
-        </Col>
+          <Col xs="12" className="d-flex justify-content-end" >Today's hours: </Col>
+          <Col xs="12" className="d-flex justify-content-end" >{hours}</Col>
+          <Col xs="12" className="d-flex justify-content-end" style={{ color: "red" }}>{open ? "Currently Open " : "Currently Closed "}</Col>
       </Row>
     </Container>
   )
