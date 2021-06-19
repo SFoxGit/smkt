@@ -21,7 +21,8 @@ function Header() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto navLinks col-8 justify-content-between text-center">
+        <div className="col-xs-0 col-md-3"></div>
+        <Nav className="ml-auto navLinks col-xs-12 col-md-9 justify-content-between text-center">
           <Nav.Link className="link col-xs-12 col-md-3" href="/menu">Menu</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/events">Events</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/contact">Contact Us</Nav.Link>
