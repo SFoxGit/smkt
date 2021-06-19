@@ -30,7 +30,7 @@ export default function Open() {
   }, [])
   return (
     <Container fluid>
-      <Row>
+      <Row className="open">
           <Col xs="12" className="d-flex justify-content-end" >Today's hours: </Col>
           <Col xs="12" className="d-flex justify-content-end" >{hours}</Col>
           <Col xs="12" className="d-flex justify-content-end" style={{ color: "red" }}>{open ? "Currently Open " : "Currently Closed "}</Col>
