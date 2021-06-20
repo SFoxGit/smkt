@@ -1,24 +1,26 @@
 import React from "react";
-import { Container, Button, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 
 function Events() {
 
   return (
     <Container>
       <Row style={{ padding: "10px" }}>
-        <Col xs={12} lg={6} style={{ height: "400px" }}>
+        <Col xs={12} lg={5} style={{ height: "400px", padding: "10px" }}>
           <Row className="border-bottom"><h2>Summer Concert Series</h2></Row>
           <Row>Our patio is the perfect place to enjoy the Mount Holly Summer Concert Series!</Row>
         </Col>
-        <Col xs={12} lg={6} style={{ height: "400px" }}>
+        <Col xs={0} lg={2}></Col>
+        <Col xs={12} lg={5} style={{ height: "400px", padding: "10px" }}>
           <Image style={{ height: "400px" }} src="../images/patio.jpg" roundedCircle fluid />
         </Col>
       </Row>
       <Row style={{ padding: "10px" }}>
-        <Col xs={12} lg={6} style={{ height: "400px" }}>
+        <Col xs={12} lg={5} style={{ height: "400px", padding: "10px" }}>
           <Image style={{ height: "400px" }} src="../images/bar.jpg" roundedCircle fluid />
         </Col>
-        <Col xs={12} lg={6} style={{ height: "400px" }}>
+        <Col xs={0} lg={2}></Col>
+        <Col xs={12} lg={5} style={{ height: "400px", padding: "10px" }}>
           <Row className="border-bottom"><h2>Reserve our tavern for your event</h2></Row>
           <Row>Call for pricing! <a className="ml-2" href="tel:7048128973">(704) 812-8973</a></Row>
           <Row>Perfect for:</Row>

@@ -26,7 +26,7 @@ function Header() {
           <Nav.Link className="link col-xs-12 col-md-3" href="/menu">Menu</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/events">Events</Nav.Link>
           <Nav.Link className="link col-xs-12 col-md-3" href="/contact">Contact Us</Nav.Link>
-          <div className="nav-link link col-xs-12 col-md-3" onClick={handleShow}>Order</div>
+          <div className="nav-link link col-xs-12 col-md-3 order" onClick={handleShow}>Order</div>
         </Nav>
       </Navbar.Collapse>
       <Modal style={{zIndex: "3000"}} show={show} onHide={handleClose}>
