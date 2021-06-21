@@ -7,8 +7,8 @@ import "./style.css"
 export default function Contact() {
   return (
     <Container>
-      <Row style={{padding: "10px"}}>
-          <Row className="border-bottom mb-4"><h2>South Main Kitchen & Tavern</h2></Row>
+      <Row style={{ padding: "10px" }}>
+      <Col xs={12}><Row className="border-bottom mb-4"><h2>South Main Kitchen & Tavern</h2></Row></Col>
         <Col xs={12} lg={6} className="mb-3">
           <Row><div>128 South Main Street</div></Row>
           <Row><div>Mount Holly, North Carolina 28120</div></Row>
@@ -27,7 +27,7 @@ export default function Contact() {
             </Marker>
           </MapContainer>
         </Col>
-          <Row className="border-bottom d-flex justify-content-center mb-4"><h2>Hours</h2></Row>
+        <Col xs={12}><Row className="border-bottom mb-4"><h2>Hours</h2></Row></Col>
         <Col xs={12} lg={6} style={{ height: "400px" }}>
           <Row><Col className="days" xs={4}>Monday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
           <Row><Col className="days" xs={4}>Tuesday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
