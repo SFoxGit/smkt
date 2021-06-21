@@ -91,3 +91,8 @@ h2 {
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: white;
 }
+
+.orderDrop {
+  font-size: 24px;
+  margin-bottom: 5px;
+}

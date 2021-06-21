@@ -36,10 +36,10 @@ function Header() {
         <Modal.Body>
           <Col xs={12} >
             <Row>
-              <Col xs={12} className="text-center mt-4">Pick-Up</Col>
+              <Col xs={12} className="text-center mt-4 orderDrop">Pick-Up</Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="tel:7048128973">Call</Button></Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="https://direct.chownow.com/order/15163/locations" target="_blank">Online</Button></Col>
-              <Col xs={12} className="text-center mt-4">Delivery</Col>
+              <Col xs={12} className="text-center mt-4 orderDrop">Delivery</Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="https://www.doordash.com/store/south-main-kitchen-and-tavern-mount-holly-630460" target="_blank">Doordash</Button></Col>
               <Col xs={6} className="d-flex justify-content-center"><Button className="orderBtn" href="https://www.grubhub.com/restaurant/south-main-kitchen-and-tavern-128-s-main-st-mt-holly/1517396" target="_blank">GrubHub</Button></Col>
             </Row>
