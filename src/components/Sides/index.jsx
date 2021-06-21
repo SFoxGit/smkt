@@ -9,6 +9,7 @@ export default function Sides() {
       <div className="menuTitle">Sides</div>
       {sides.map(e => (
         <MenuCard
+          key={e.name}
           name={e.name}
           description={e.description}
           price={e.price}

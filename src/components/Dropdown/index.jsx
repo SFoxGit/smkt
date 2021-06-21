@@ -4,7 +4,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 
 export default function MenuDropdown() {
   return (
-    <div class="d-flex justify-content-center" style={{marginBottom: "60px"}}>
+    <div className="d-flex justify-content-center" style={{marginBottom: "60px"}}>
       <DropdownButton id="dropdown-basic-button" title="Menu Sections" className="position-fixed menuDrop">
         <Dropdown.Item href="/menu">Full Menu</Dropdown.Item>
         <Dropdown.Item href="/starters">Starters</Dropdown.Item>

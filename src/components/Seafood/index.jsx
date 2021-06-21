@@ -9,6 +9,7 @@ export default function Seafood() {
       <div className="menuTitle">Seafood</div>
       {seafood.map(e => (
         <MenuCard
+          key={e.name}
           name={e.name}
           description={e.description}
           price={e.price}

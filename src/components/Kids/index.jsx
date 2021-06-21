@@ -9,6 +9,7 @@ export default function Kids() {
       <div className="menuTitle">Kids</div>
       {kids.map(e => (
         <MenuCard
+          key={e.name}
           name={e.name}
           description={e.description}
           price={e.price}

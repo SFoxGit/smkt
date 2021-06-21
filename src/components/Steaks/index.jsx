@@ -9,6 +9,7 @@ export default function Steaks() {
       <div className="menuTitle">Steaks</div>
       {steaks.map(e => (
         <MenuCard
+          key={e.name}
           name={e.name}
           description={e.description}
           price={e.price}

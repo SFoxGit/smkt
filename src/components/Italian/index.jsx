@@ -9,6 +9,7 @@ export default function Italian() {
       <div className="menuTitle">Italian</div>
       {italian.map(e => (
         <MenuCard
+          key={e.name}
           name={e.name}
           description={e.description}
           price={e.price}
