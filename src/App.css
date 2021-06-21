@@ -74,3 +74,16 @@
 .logo {
   margin-left: 20px;
 }
+
+.dropCont {
+  background-color: white !important;
+}
+
+/* .close {
+  background-color: var(--background);
+}
+
+.close:hover {
+  background-color: red;
+  font-weight: bolder;
+} */

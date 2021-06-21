@@ -30,8 +30,8 @@ function Header() {
         </Nav>
       </Navbar.Collapse>
       <Modal style={{zIndex: "3000"}} show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-            <Row><h2>Order</h2></Row>
+        <Modal.Header closeButton className="orderModal">
+            <Row><h2 className="ml-4">Order</h2></Row>
         </Modal.Header>
         <Modal.Body>
           <Col xs={12} >
