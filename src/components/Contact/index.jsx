@@ -22,7 +22,7 @@ export default function Contact() {
             />
             <Marker position={[35.2965, -81.0166]}>
               <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
+                South Main Kitchen & Tavern <br /> 128 South Main St <br /> Mount Holly, NC
               </Popup>
             </Marker>
           </MapContainer>
