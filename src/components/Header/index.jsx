@@ -15,7 +15,7 @@ function Header() {
           src="./images/smktLogo.png"
           width="80"
           height="80"
-          className="d-inline-block align-top"
+          className="d-inline-block align-top logo"
           alt="SMKT Logo"
         />
       </Navbar.Brand>
