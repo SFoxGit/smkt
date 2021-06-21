@@ -5,6 +5,8 @@
 .link:hover {
   color: var(--thirdColor) !important;
   font-weight: bold;
+  -webkit-text-stroke-width: .75px;
+  -webkit-text-stroke-color: var(--secondaryColor);
 }
 
 .modal-content {

@@ -29,7 +29,7 @@ export default function Open() {
 
   }, [])
   return (
-    <Container fluid>
+    <Container>
       <Row className="open">
           <Col xs="12" className="d-flex justify-content-end" >Today's hours: </Col>
           <Col xs="12" className="d-flex justify-content-end" >{hours}</Col>
