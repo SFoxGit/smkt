@@ -28,70 +28,86 @@ function App() {
   return (
     <Router>
       <Header />
-      <Open />
       <Switch>
         <Route exact path="/">
+          <Open />
           <Home />
         </Route>
         <Route exact path="/menu">
           <MenuDropdown />
+          <Open />
           <Menu />
         </Route>
         <Route exact path="/starters">
           <MenuDropdown />
+          <Open />
           <Starters />
         </Route>
         <Route exact path="/salads">
           <MenuDropdown />
+          <Open />
           <Salads />
         </Route>
         <Route exact path="/burgers">
           <MenuDropdown />
+          <Open />
           <Burgers />
         </Route>
         <Route exact path="/sandwiches">
           <MenuDropdown />
+          <Open />
           <Sandwiches />
         </Route>
         <Route exact path="/entrees">
           <MenuDropdown />
+          <Open />
           <Entrees />
         </Route>
         <Route exact path="/seafood">
           <MenuDropdown />
+          <Open />
           <Seafood />
         </Route>
         <Route exact path="/steaks">
           <MenuDropdown />
+          <Open />
           <Steaks />
         </Route>
         <Route exact path="/italian">
           <MenuDropdown />
+          <Open />
           <Italian />
         </Route>
         <Route exact path="/kids">
           <MenuDropdown />
+          <Open />
           <Kids />
         </Route>
         <Route exact path="/sides">
           <MenuDropdown />
+          <Open />
           <Sides />
         </Route>
         <Route exact path="/beverages">
           <MenuDropdown />
+          <Open />
           <Beverages />
         </Route>
         <Route exact path="/events">
+          <Open />
           <Events />
         </Route>
         <Route exact path="/contact">
+          <Open />
           <Contact />
         </Route>
         <Route exact path="/order">
+          <Open />
           <Order />
         </Route>
         <Route>
           <Home />
+          <Open />
         </Route>
       </Switch>
       {/* <NightMode /> */}

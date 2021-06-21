@@ -15,7 +15,7 @@ import { Container } from "react-bootstrap";
 function Menu() {
 
   return (
-    <Container>
+    <>
       <Starters />
       <Salads />
       <Burgers />
@@ -27,7 +27,7 @@ function Menu() {
       <Kids />
       <Sides />
       <Beverages />
-    </Container>
+      </>
   )
 }
 
