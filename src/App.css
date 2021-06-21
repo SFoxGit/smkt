@@ -79,11 +79,9 @@
   background-color: white !important;
 }
 
-/* .close {
-  background-color: var(--background);
+h2 {
+  color: var(--thirdColor) !important;
+  font-size: 36px !important;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
 }
-
-.close:hover {
-  background-color: red;
-  font-weight: bolder;
-} */

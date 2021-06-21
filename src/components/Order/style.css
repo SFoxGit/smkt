@@ -22,9 +22,3 @@
 .col {
   color: white;
 }
-
-h2 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  color: var(--secondaryColor)
-}

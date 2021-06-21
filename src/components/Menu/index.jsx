@@ -10,11 +10,13 @@ import Italian from '../Italian';
 import Kids from '../Kids';
 import Sides from '../Sides';
 import Beverages from "../Beverages";
+import { Row } from "react-bootstrap";
 
 function Menu() {
 
   return (
     <>
+      <Row className="justify-content-center"><h2>Menu</h2></Row>
       <Starters />
       <Salads />
       <Burgers />

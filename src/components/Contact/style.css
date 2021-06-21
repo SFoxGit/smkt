@@ -23,13 +23,6 @@
   color: white;
 }
 
-h2 {
-  font-size: 36px !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  color: var(--secondaryColor)
-}
-
 .days {
   font-size: 16px !important;
 }
