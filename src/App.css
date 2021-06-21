@@ -2,6 +2,7 @@
   --background: #000000;
   --secondaryColor: #212529;
   --thirdColor: #C4976E;
+  --redColor: #501b1d;
 }
 
 #root {
@@ -68,6 +69,10 @@
   font-size: 16px;
 }
 
+.current {
+  font-weight: bolder;
+  font-size: 16px;
+}
 .order {
   cursor: pointer;
 }
