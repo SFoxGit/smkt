@@ -19,7 +19,7 @@ price: "$7.45"
 },
 {
 name: "Fried Green Tomatoes",
-description: "Buttermilk soaked and fried topped with brown sugar bacon crumbles along with a side of Caj…",
+description: "Buttermilk soaked and fried topped with brown sugar bacon crumbles along with a side of Cajun remoulade.",
 price: "$7.95"
 },
 {
