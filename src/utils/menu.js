@@ -46,37 +46,37 @@ const salads =
 [
 {
 name: "Avocado Chicken Cobb Salad",
-description: "Iceberg and Romaine mix topped with diced tomato, bacon, eggs, avocado with Bleu chees…",
+description: "Iceberg and Romaine mix topped with diced tomato, bacon, eggs, avocado with Bleu cheese crumbles and tender chunks of grilled chicken",
 price: "$11.95"
 },
 {
 name: "Roadhouse Chicken Salad",
-description: "Iceberg and Romaine mix topped with diced tomato, cucumbers, chopped egg,bacon, shred…",
+description: "Iceberg and Romaine mix topped with diced tomato, cucumbers, chopped egg, bacon, shredded cheese, and tender chunks of grilled chicken",
 price: "$10.95"
 },
 {
 name: "Greek Salad",
-description: "Iceberg and Romaine mix topped with diced tomato, cucumbers, red onion, pepperoncini, K…",
+description: "Iceberg and Romaine mix topped with diced tomato, cucumbers, red onion, pepperoncini, kalamata olives, and feta cheese",
 price: "$8.45"
 },
 {
 name: "Main Street Salad",
-description: "Iceberg and Romaine mix topped with steak tips, diced tomato, cucumbers, red onion, bleu …",
+description: "Iceberg and Romaine mix topped with steak tips, diced tomato, cucumbers, red onion, bleu cheese crumbles, and onion tanglers",
 price: "$11.95"
 },
 {
 name: "Chef Salad",
-description: "Iceberg and Romaine mix topped with diced tomato,cucumbers,egg, shredded cheese, ham…",
+description: "Iceberg and Romaine mix topped with diced tomato,cucumbers,egg, shredded cheese, ham, and turkey",
 price: "$9.95"
 },
 {
 name: "Soup & Salad",
-description: "16oz Bowl of Soup with a House or Caesar Salad. Please call 704-812-8973 to find out th…",
+description: "16oz Bowl of Soup with a House or Caesar Salad. Please call 704-812-8973 to find out the day.",
 price: "$7.95"
 },
 {
 name: "House Salad",
-description: "Iceburg and Romaine lettuce mix with cucumbers, diced tomatoes, red onion and shr…",
+description: "Iceburg and Romaine lettuce mix with cucumbers, diced tomatoes, red onion and shredded cheese",
 price: "$3.95"
 },
 {
