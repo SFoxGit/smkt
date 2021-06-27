@@ -120,7 +120,7 @@ const sandwiches =
 [
 {
 name: "The Philly Cheesesteak",
-description: "Sliced Philly steak with grilled onions, peppers, mushrooms and mayo on a hoagie. Served wit…",
+description: "Sliced Philly steak with grilled onions, peppers, mushrooms and mayo on a hoagie. Served with one side.",
 price: "$10.95"
 },
 {
@@ -130,12 +130,12 @@ price: "$9.95"
 },
 {
 name: "Gyro or Chicken Gyro",
-description: "Sliced gyro meat or chicken with diced tomato, onions and tzatziki sauce served on pita bread…",
+description: "Sliced gyro meat or chicken with diced tomato, onions and tzatziki sauce served on pita bread. Served with one side.",
 price: "$9.95"
 },
 {
 name: "Chicken Bacon Ranch Wrap",
-description: "Fried chicken, bacon, Mozzarella cheese and ranch dressing on a tortilla wrap. Served with o…",
+description: "Fried chicken, bacon, Mozzarella cheese and ranch dressing on a tortilla wrap. Served with one side.",
 price: "$9.95"
 },
 {
@@ -150,7 +150,7 @@ price: "$10.95"
 },
 {
 name: "Main Street Club",
-description: "Ham, turkey, bacon, American cheese, lettuce, tomato and mayo on white bread. Served with …",
+description: "Ham, turkey, bacon, American cheese, lettuce, tomato and mayo on white bread. Served with one side.",
 price: "$10.95"
 }
 ]
