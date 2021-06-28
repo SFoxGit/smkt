@@ -164,12 +164,12 @@ price: "$11.45"
 },
 {
 name: "Dutchman’s Creek Chicken",
-description: "Grilled chicken breast with BBQ sauce, crumbled bacon and shredded cheese then finished in th…",
+description: "Grilled chicken breast with BBQ sauce, crumbled bacon and shredded cheese then finished in the oven. Served with two sides.",
 price: "$11.95"
 },
 {
 name: "Marinated Chicken Breast Dinner",
-description: "Grilled chicken breast that has been house marinated served on a bed of rice. Served with …",
+description: "Grilled chicken breast that has been house marinated served on a bed of rice. Served with two sides.",
 price: "$10.95"
 },
 {
@@ -179,12 +179,12 @@ price: "$10.95"
 },
 {
 name: "Beef Tips or Chicken Tips",
-description: "House marinated and grilled with mushrooms, peppers and onions served over rice. Served w…",
+description: "House marinated and grilled with mushrooms, peppers and onions served over rice. Served with two sides.",
 price: "$10.95"
 },
 {
 name: "Hamburger Steak",
-description: "10 oz. marinated ground beef topped with grilled onions and brown gravy. Served with tw…",
+description: "10 oz. marinated ground beef topped with grilled onions and brown gravy. Served with two sides.",
 price: "$11.95"
 },
 {
