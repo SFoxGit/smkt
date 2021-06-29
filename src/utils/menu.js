@@ -218,7 +218,7 @@ const seafood =
 [
 {
 name: "Seafood Platter",
-description:  "Fried flounder, calabash shrimp, jumbo shrimp, scallops and deviled crab. Served with two sid…",
+description:  "Fried flounder, calabash shrimp, jumbo shrimp, scallops and deviled crab. Served with two sides.",
 price: "$17.95"
 },
 {
