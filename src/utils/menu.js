@@ -247,22 +247,22 @@ const italian =
 [
 {
 name: "Spaghetti with Meat Sauce",
-description: "Traditional spaghetti with house made meat sauce sprinkled with Parmesan Cheese. Serve…",
+description: "Traditional spaghetti with house made meat sauce sprinkled with Parmesan Cheese. Served with salad and garlic bread.",
 price: "$10.45"
 },
 {
 name: "Baked Lasagna",
-description: "House made lasagna covered with meat sauce and Mozzarella cheese. Served with salad and …",
+description: "House made lasagna covered with meat sauce and Mozzarella cheese. Served with salad and garlic bread.",
 price: "$12.45"
 },
 {
 name: "Chicken Parmesan",
-description: "Fried white meat chicken covered in our house made meat sauce topped with Mozzarella. Ser…",
+description: "Fried white meat chicken covered in our house made meat sauce topped with Mozzarella. Served with salad and garlic bread.",
 price: "$12.45"
 },
 {
 name: "Chicken Pasta",
-description: "Tender chunks of chicken sauteed with mushrooms and broccoli, tossed in our house-…",
+description: "Tender chunks of chicken sauteed with mushrooms and broccoli, tossed in our house-made parmesan cream sauce and linquine noodles. Served with salad and garlic bread.",
 price: "$13.45"
 },
 {
