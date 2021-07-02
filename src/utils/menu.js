@@ -1,5 +1,3 @@
-// const menu = [
-  // Starters
 const starters =
 [
 {
