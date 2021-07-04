@@ -20,8 +20,6 @@ import Sides from './components/Sides';
 import Beverages from './components/Beverages';
 import Open from './components/Open';
 
-
-
 function App() {
   return (
     <Router>
