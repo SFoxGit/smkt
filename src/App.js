@@ -25,75 +25,75 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/#/">
           <Open />
           <Home />
         </Route>
-        <Route exact path="/menu">
+        <Route exact path="/#/menu">
           <MenuDropdown />
           <Open />
           <Menu />
         </Route>
-        <Route exact path="/starters">
+        <Route exact path="/#/starters">
           <MenuDropdown />
           <Open />
           <Starters />
         </Route>
-        <Route exact path="/salads">
+        <Route exact path="/#/salads">
           <MenuDropdown />
           <Open />
           <Salads />
         </Route>
-        <Route exact path="/burgers">
+        <Route exact path="/#/burgers">
           <MenuDropdown />
           <Open />
           <Burgers />
         </Route>
-        <Route exact path="/sandwiches">
+        <Route exact path="/#/sandwiches">
           <MenuDropdown />
           <Open />
           <Sandwiches />
         </Route>
-        <Route exact path="/entrees">
+        <Route exact path="/#/entrees">
           <MenuDropdown />
           <Open />
           <Entrees />
         </Route>
-        <Route exact path="/seafood">
+        <Route exact path="/#/seafood">
           <MenuDropdown />
           <Open />
           <Seafood />
         </Route>
-        <Route exact path="/steaks">
+        <Route exact path="/#/steaks">
           <MenuDropdown />
           <Open />
           <Steaks />
         </Route>
-        <Route exact path="/italian">
+        <Route exact path="/#/italian">
           <MenuDropdown />
           <Open />
           <Italian />
         </Route>
-        <Route exact path="/kids">
+        <Route exact path="/#/kids">
           <MenuDropdown />
           <Open />
           <Kids />
         </Route>
-        <Route exact path="/sides">
+        <Route exact path="/#/sides">
           <MenuDropdown />
           <Open />
           <Sides />
         </Route>
-        <Route exact path="/beverages">
+        <Route exact path="/#/beverages">
           <MenuDropdown />
           <Open />
           <Beverages />
         </Route>
-        <Route exact path="/events">
+        <Route exact path="/#/events">
           <Open />
           <Events />
         </Route>
-        <Route exact path="/contact">
+        <Route exact path="/#/contact">
           <Open />
           <Contact />
         </Route>
