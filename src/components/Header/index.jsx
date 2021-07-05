@@ -23,9 +23,9 @@ function Header() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <div className="col-xs-0 col-md-6"></div>
         <Nav className="ml-auto navLinks col-xs-12 col-md-6 justify-content-between text-center">
-          <Nav.Link className="link col-xs-12 col-md-3" href="/menu">Menu</Nav.Link>
-          <Nav.Link className="link col-xs-12 col-md-3" href="/events">Events</Nav.Link>
-          <Nav.Link className="link col-xs-12 col-md-3" href="/contact">Contact Us</Nav.Link>
+          <Nav.Link className="link col-xs-12 col-md-3" href="smkt/#/menu">Menu</Nav.Link>
+          <Nav.Link className="link col-xs-12 col-md-3" href="smkt/#/events">Events</Nav.Link>
+          <Nav.Link className="link col-xs-12 col-md-3" href="smkt/#/contact">Contact Us</Nav.Link>
           <div className="nav-link link col-xs-12 col-md-3 order" onClick={handleShow}>Order</div>
         </Nav>
       </Navbar.Collapse>
