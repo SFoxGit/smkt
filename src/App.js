@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header';
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -22,7 +22,7 @@ import Open from './components/Open';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route exact path="/">
