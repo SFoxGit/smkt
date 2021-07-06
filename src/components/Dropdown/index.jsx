@@ -6,18 +6,18 @@ export default function MenuDropdown() {
   return (
     <div className="d-flex justify-content-center dropCont" style={{marginBottom: "60px"}}>
       <DropdownButton id="dropdown-basic-button" title="Menu Sections" className="position-fixed menuDrop">
-        <Dropdown.Item href="/menu">Full Menu</Dropdown.Item>
-        <Dropdown.Item href="/starters">Starters</Dropdown.Item>
-        <Dropdown.Item href="/salads">Salads</Dropdown.Item>
-        <Dropdown.Item href="/burgers">Burgers</Dropdown.Item>
-        <Dropdown.Item href="/sandwiches">Sandwiches</Dropdown.Item>
-        <Dropdown.Item href="/entrees">Entrees</Dropdown.Item>
-        <Dropdown.Item href="/seafood">Seafood</Dropdown.Item>
-        <Dropdown.Item href="/steaks">Steaks</Dropdown.Item>
-        <Dropdown.Item href="/italian">Italian</Dropdown.Item>
-        <Dropdown.Item href="/kids">Kids</Dropdown.Item>
-        <Dropdown.Item href="/sides">Sides</Dropdown.Item>
-        <Dropdown.Item href="/beverages">Beverages</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/menu">Full Menu</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/starters">Starters</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/salads">Salads</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/burgers">Burgers</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/sandwiches">Sandwiches</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/entrees">Entrees</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/seafood">Seafood</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/steaks">Steaks</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/italian">Italian</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/kids">Kids</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/sides">Sides</Dropdown.Item>
+        <Dropdown.Item href="/smkt/#/beverages">Beverages</Dropdown.Item>
       </DropdownButton>
     </div>
   )
