@@ -11,7 +11,7 @@ function Events() {
         </Col>
         <Col xs={0} lg={2}></Col>
         <Col xs={12} lg={5} style={{ height: "400px", padding: "10px" }} className="mb-3">
-          <Image style={{ height: "400px", objectFit: "cover" }} src="/images/patio.jpg" roundedCircle fluid />
+          <Image style={{ height: "400px", objectFit: "cover" }} src={window.location.origin + "/images/patio.jpg"} roundedCircle fluid />
         </Col>
       </Row>
       <Row style={{ padding: "10px" }}>
