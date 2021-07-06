@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/smkt/#/">
         <img
           src="./images/smktLogo.png"
           width="80"
