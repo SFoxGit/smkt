@@ -29,7 +29,7 @@ export default function Contact() {
         </Col>
         <Col xs={12}><Row className="border-bottom mb-4"><h2>Hours</h2></Row></Col>
         <Col xs={12} lg={6} style={{ height: "400px" }}>
-          <Row><Col className="days" xs={4}>Monday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
+          <Row><Col className="days" xs={4}>Monday</Col> <Col className="timeOpen" xs={8}>Closed</Col></Row>
           <Row><Col className="days" xs={4}>Tuesday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
           <Row><Col className="days" xs={4}>Wednesday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
           <Row><Col className="days" xs={4}>Thursday</Col> <Col className="timeOpen" xs={8}>11:00 AM - 9:00 PM</Col></Row>
