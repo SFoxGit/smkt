@@ -9,7 +9,7 @@ export default function MenuCard(props) {
         <Col xs={3} className="text-right">{props.price}</Col>
       </Row>
       <Row>
-        <Col>{props.description}</Col>
+        <Col xs={11} className="ml-4">{props.description}</Col>
       </Row>
     </Container>
   )
